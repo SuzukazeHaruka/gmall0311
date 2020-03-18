@@ -1,0 +1,38 @@
+2020-02-12 22:40:56.982 INFO  [0] [Licensing] Generated installation GUID is I/1zItyuDBgFw7ZV3DA96zXGGHTBLPH103q1BpBTrHY=
+2020-02-12 22:40:56.982 INFO  [0] [Licensing] Generated first install timestamp:1581518456981
+2020-02-12 22:40:57.131 INFO  [0] [Licensing] Using synchronous license initialization (no possible benefit of using asynchronous initialization)
+2020-02-12 22:40:57.131 INFO  [0] [Licensing] Trying remoting licensing ..
+2020-02-12 22:40:57.131 INFO  [0] [Licensing]  --> This licensing source didn't find valid licensing
+2020-02-12 22:40:57.131 INFO  [0] [Licensing]  --> This licensing source didn't find valid licensing
+2020-02-12 22:40:57.132 INFO  [0] [Licensing] Trying license file licensing ..
+2020-02-12 22:40:57.132 INFO  [0] [Licensing] Attempting to load license file from: D:\idea-workspace\gmall0311\jrebel.lic
+2020-02-12 22:40:57.132 INFO  [0] [Licensing] Attempting to load license file from: F:\jrebel\jrebel6\jrebel.lic
+2020-02-12 22:40:57.133 INFO  [0] [Licensing]  --> This licensing source didn't find valid licensing
+2020-02-12 22:40:57.133 WARN  [0] [Licensing] All licenses sources have failed!
+2020-02-12 22:40:57.133 INFO  [0] [Licensing] Licensing exception: LicensingMessage{description='UNABLE TO INITIALIZE LICENSING - NO LICENSE FOUND', callToAction='', exceptionMessage='null', link='null'}
+2020-02-12 22:40:57.260 INFO  [0] [Banner] Now: Wed Feb 12 22:40:57 CST 2020
+2020-02-12 22:40:57.261 INFO  [0] [Banner]  Starting logging to file: D:\idea-workspace\gmall0311\jrebel.log
+2020-02-12 22:40:57.261 INFO  [0] [Banner]  
+2020-02-12 22:40:57.261 INFO  [0] [Banner]  #############################################################
+2020-02-12 22:40:57.261 INFO  [0] [Banner]  
+2020-02-12 22:40:57.262 INFO  [0] [Banner]  JRebel Agent 2020.1.0 (202001081240)
+2020-02-12 22:40:57.262 INFO  [0] [Banner]  (c) Copyright 2007-2020 Perforce Software, Inc.
+2020-02-12 22:40:57.266 INFO  [0] [Banner]  
+2020-02-12 22:40:57.266 INFO  [0] [Banner]  Over the last 1 days JRebel prevented
+2020-02-12 22:40:57.266 INFO  [0] [Banner]  at least 0 redeploys/restarts saving you about 0 hours.
+2020-02-12 22:40:57.271 INFO  [0] [Banner]  
+2020-02-12 22:40:57.271 INFO  [0] [Banner]  UNABLE TO INITIALIZE LICENSING - NO LICENSE FOUND
+2020-02-12 22:40:57.271 INFO  [0] [Banner]  
+2020-02-12 22:40:57.272 INFO  [0] [Banner]  If you think this is an error, contact support@jrebel.com.
+2020-02-12 22:40:57.275 INFO  [0] [Banner]  
+2020-02-12 22:40:57.275 INFO  [0] [Banner]  
+2020-02-12 22:40:57.276 INFO  [0] [Banner]  #############################################################
+2020-02-12 22:40:57.276 INFO  [0] [Banner]  
+2020-02-12 22:40:57.276 INFO  [0] [Licensing] JRebel is running with the following internal licensing configurationLicenseUtils:
+2020-02-12 22:40:57.276 INFO  [0] [Licensing]     License valid? false
+2020-02-12 22:40:57.277 INFO  [0] [Licensing]     License type: UNLICENSED
+2020-02-12 22:40:57.277 INFO  [0] [Licensing]     License source: null
+2020-02-12 22:40:57.277 INFO  [0] [Licensing]     License valid from: null
+2020-02-12 22:40:57.277 INFO  [0] [Licensing]     License valid until: null
+2020-02-12 22:40:57.277 INFO  [0] [Licensing] JRebel version: 2020.1.0
+2020-02-12 22:40:57.277 INFO  [0] [Licensing] Java version: 1.8.0_211-b12, name: Java HotSpot(TM) 64-Bit Server VM, info: mixed mode, arch: amd64

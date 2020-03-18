@@ -1,0 +1,17 @@
+package com.atguigu.gmall0311.cart;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = "com.atguigu.gmall0311")
+@MapperScan("com.atguigu.gmall0311.cart.mapper")
+public class GmallCartServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(GmallCartServiceApplication.class, args);
+    }
+
+}

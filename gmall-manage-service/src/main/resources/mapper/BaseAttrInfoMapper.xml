@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.atguigu.gmall0311.manage.mapper.BaseAttrInfoMapper">
+    <resultMap id="baseAttrInfoMap" type="com.atguigu.gmall0311.bean.BaseAttrInfo" autoMapping="true">
+        <id column="id" property="id"/>
+        <!-- ofType: 返回集合的属性对象-->
+        <!--  <result></result>-->
+        <!--mybatis 配置一对多-->
+        <!-- ofType: 返回集合的属性对象-->
+        <collection  ofType="com.atguigu.gmall0311.bean.BaseAttrValue" property="attrValueList" autoMapping="true">
+        <!--如果有字段重名，应该给字段起别名-->
+            <id property="id" column="bavId"/>
+        </collection>
+    </resultMap>
+
+    <!--id：方法名称-->
+    <!--#,$-->
+    <!-- 如果一个参数可以：
+        单纯只用mybatis 传入多个参数可以使用数字0,1,2代替传递的参数顺序！
+    -->
+    <select id="getBaseAttrInfoListByCatalog3Id" resultMap="baseAttrInfoMap">
+        select bai.id, attr_name, catalog3_id,bav.id bavId, value_name, attr_id from base_attr_info bai
+        inner join base_attr_value bav on bai.id=bav.attr_id
+        where catalog3_id=#{0}
+    </select>
+    <select id="selectAttrInfoListByIds" resultMap="baseAttrInfoMap">
+         select bai.id, attr_name, catalog3_id,bav.id bavId, value_name, attr_id from base_attr_info bai
+         inner join base_attr_value bav on bai.id=bav.attr_id
+         where  bav.id in (${valueIds})
+    </select>
+</mapper>
